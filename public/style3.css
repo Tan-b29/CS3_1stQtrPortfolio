@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: monospace;
+ color: #f6f3f7;
+  background-attachment: fixed; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center;   
+  background: linear-gradient( #de96c7, #84b2e1, #c48ad6);
+}
+
+header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.card {
+  background: linear-gradient(45deg, #4a90e2, #9013fe); 
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  width: 250px;
+  height: 300px;
+  text-align: center; /* makes emoji + text stack centered */
+}
+
+.emoji {
+  font-size: 90px;
+  margin-bottom: 10px;
+}

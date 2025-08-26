@@ -1,0 +1,22 @@
+body {
+  font-family: 'Monospace',;
+  margin: 0;
+  padding: 20px;
+  color: #f6f3f7;
+  text-align: center;
+  background: linear-gradient( #de96c7, #84b2e1, #c48ad6);
+  background-attachment: fixed; 
+}
+
+button {
+  background: linear-gradient(45deg, #4a90e2, #9013fe); 
+  color: white;                  
+  font-size: 40px;               
+  font-family: monospace;        
+  padding: 10px 20px;            
+  border: none;                  
+  border-radius: 20px;           
+  cursor: pointer;               
+  transition: all 0.3s ease;     
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+}
