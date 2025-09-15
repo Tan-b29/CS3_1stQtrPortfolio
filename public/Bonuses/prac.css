@@ -1,0 +1,10 @@
+body {
+    font-family: 'Monospace',;
+    margin: 0;
+    padding: 20px;
+    color: #ebeaeb;
+    text-align: center;
+    background: linear-gradient(135deg, #84b2e1, #c48ad6);
+    background-attachment: fixed; 
+  }
+  

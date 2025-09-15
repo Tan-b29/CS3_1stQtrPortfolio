@@ -13,11 +13,14 @@ fav_fruits = ["mango", "banana", "apple"];
 fav_fruits.push("strawberry")
 var popped = fav_fruits.pop()
 
-console.log(popped)
+var shifted = fav_fruits.shift()
+fav_fruits.unshift("kiwi")
+
+console.log(popped, shifted)
 
 // for loop
 for(let i=0; i<fav_fruits.length; i++){
-    console.log(fav.fruits[i])
+    console.log(fav_fruits[i])
 }
 
 //python type shift
@@ -46,4 +49,25 @@ do {
      i++
 } while (i<=3);
 
-//second type for loop
+grades = [90, 88, 99, 98, 97,]
+
+sum = 0;
+
+for (let i = 0; i < grades.length; i++){
+    sum+= grades[i]
+}
+console.log(sum)
+
+console.log(Math.min(...grades))
+
+min = 1000000000
+for(i = 0; i <grades.length; i++){
+    if (grades[i]>max){
+        mix = grades[i]
+    }
+}
+console.log(max)
+grades.push(100,20)
+grades.sort
+console.log(grades)
+
