@@ -4,31 +4,31 @@ process.stdin.on('data', input => {
 
    // use the greeting variable in your code, and start it on the next line
 
-    switch(greeting.toUpperCase){
+    switch(greeting.toUpperCase()){
         case 'HELLO':
-            console.log('ENGLISH')
-            break
+            console.log('ENGLISH');
+            break;
          case 'HOLA':
-            console.log('SPANISH')
-            break
+            console.log('SPANISH');
+            break;
          case 'MABUHAY':
-            console.log('TAGALOG')
-            break
+            console.log('TAGALOG');
+            break;
         case 'HALLO':
-            console.log('GERMAN')
-            break
+            console.log('GERMAN');
+            break;
         case 'BONJOUR':
-            console.log('FRENCH')
-            break
+            console.log('FRENCH');
+            break;
         case 'CIAO':
-            console.log('ITALIAN')
-            break
+            console.log('ITALIAN');
+            break;
          case 'ZDRAVSTUJTE':
-            console.log('RUSSIAN')
-            break
+            console.log('RUSSIAN');
+            break;
         default:
-            console.log('UNKNOWN')
-            break
+            console.log('UNKNOWN');
+            break;
 
     }
    
