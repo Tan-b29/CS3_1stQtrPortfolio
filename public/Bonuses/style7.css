@@ -1,0 +1,28 @@
+body {
+    font-family: monospace;
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient( #de96c7, #84b2e1, #c48ad6);
+    background-attachment: fixed; 
+    container-type: center ;
+  }
+  header {
+    background-color: #ffffff;
+    color: #817ea7;
+    font-size: larger;
+    padding: 2em;
+    text-align: center;
+    width: 104=0px;
+  }
+  
+  
+  
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #ffffff;
+    width: 2000px;  }
+  
